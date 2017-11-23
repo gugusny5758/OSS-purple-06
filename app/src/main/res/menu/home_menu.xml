@@ -9,4 +9,10 @@
     <item
         android:id="@+id/removeCard"
         android:title="CardNews 삭제" />
+    <item
+        android:id="@+id/osl"
+        android:title="오픈소스 라이센스" />
+    <item
+        android:id="@+id/help"
+        android:title="도움말" />
 </menu>
