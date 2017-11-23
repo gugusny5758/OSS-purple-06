@@ -45,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
         Twitter.initialize(this);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);// 앱 상단에 앱 아이콘 표시
+        getSupportActionBar().setDisplayShowHomeEnabled(true); // 앱 아이콘 변경
+
         final InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         final EditText selectEditText = (EditText) findViewById(R.id.passTextField);
 
