@@ -36,6 +36,8 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.0.+'
     implementation 'com.android.support:support-v4:27.0.0'
 
+    compile "com.android.support:appcompat-v7:27.0.+"
+
     compile 'com.github.nileshpambhar:MultiPhotoPicker:v1.2'
 
     compile 'com.facebook.android:facebook-android-sdk:4.+'
