@@ -115,9 +115,13 @@ public class HomeActivity extends AppCompatActivity {
                 return true;
 
             case R.id.osl://오픈소스 라이센스 명기 이벤트
+                Intent oslIntent = new Intent(getApplicationContext(), OSLActivity.class);
+                startActivity(oslIntent);
                 return true;
 
             case R.id.help://사용자 매뉴얼 표시 이벤트
+                Intent helpIntent = new Intent(getApplicationContext(), HELPActivity.class);
+                startActivity(helpIntent);
                 return true;
         }
         return super.onOptionsItemSelected(item);
