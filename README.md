@@ -43,20 +43,19 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 다음 어플을 구현하기 위하여 안드로이드 스튜디오를 이용하여 .java와 .xml문서로 작성. (들여쓰기는 탭으로 구분)
 또한 파일들은 다음과 같이 구성되어 있다.
-1. java
-    (a) CardNewsAdapter : 이미지를 불러오는 것과 카드 클릭과 공유할 때의 효과 구현
-    (b) CardNewsItem : 카드뉴스 이미지들의 정보 불러옴
-    (c) CardNewsPageAdapter : 카드뉴스를 페이지에 맞게 조절
-    (d) CardNewsView : 카드뉴스를 보여주는 기능
-    (e) HelpActivity : Help 레이아웃 불러옴
-    (f) HomeActivity : 기본 화면에서 구현되는 기능들
-    (g) MainActivity : 로그인과 버튼 이벤트 구현
-    (h) OSLActivity : OSL 레이아웃 불러옴
-    (i) SNSapplication : 트위터 로그인시 사용
-2. res
-    (a) drawble : drawable 리소스 저장
-    (b) layout : 기본적인 화면 뼈대 구성
-    (c) menu : 화면 상단 메뉴버튼 구성
-    (d) mipmap : 아이콘
-    (e) values : 설정된 값들 기록
-  값드 
+1. java<br>
+    (a) CardNewsAdapter : 이미지를 불러오는 것과 카드 클릭과 공유할 때의 효과 구현<br>
+    (b) CardNewsItem : 카드뉴스 이미지들의 정보 불러옴<br>
+    (c) CardNewsPageAdapter : 카드뉴스를 페이지에 맞게 조절<br>
+    (d) CardNewsView : 카드뉴스를 보여주는 기능<br>
+    (e) HelpActivity : Help 레이아웃 불러옴<br>
+    (f) HomeActivity : 기본 화면에서 구현되는 기능들<br>
+    (g) MainActivity : 로그인과 버튼 이벤트 구현<br>
+    (h) OSLActivity : OSL 레이아웃 불러옴<br>
+    (i) SNSapplication : 트위터 로그인시 사용<br>
+2. res<br>
+    (a) drawble : drawable 리소스 저장<br>
+    (b) layout : 기본적인 화면 뼈대 구성<br>
+    (c) menu : 화면 상단 메뉴버튼 구성<br>
+    (d) mipmap : 아이콘<br>
+    (e) values : 설정된 값들 기록<br>
